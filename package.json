@@ -4,7 +4,7 @@
   "description": "Netpoint demo Adapter for ioBroker",
   "author": {
     "name": "Netpoint GmbH",
-    "email": irakli@netpoint.de"
+    "email": "irakli@netpoint.de"
   },
   "homepage": "https://github.com/npirakli/ioBroker.demo",
   "license": "MIT",
