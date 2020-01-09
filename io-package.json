@@ -1,0 +1,66 @@
+{
+    "common": {
+        "name": "demo",
+        "version": "1.0.0",
+        "news": {
+            "1.0.0": {
+                "en": "ioBroker demo adapter",
+                "de": "ioBroker demo adapter DEUTSCH"
+            }
+        },
+        "title": "Netpoint Demo",
+        "titleLang": {
+            "en": "Netpoint Demo TITLE",
+            "de": "Netpoint Demo TITLE DEUTSCH"
+        },
+        "desc": {
+             "en": "Netpoint Demo DESC",
+            "de": "Netpoint Demo DESC DEUTSCH"
+        },
+        "authors": [
+            "Author <irakli@netpoint.de>"
+        ],
+        "keywords": [
+            "ioBroker",
+            "demo",
+			"netpoint"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "demo.png",
+        "enabled": true,
+        "extIcon": "https://github.com/npirakli/ioBroker.demo/master/admin/demo.png",
+        "readme": "https://github.com/npirakli/ioBroker.demo/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "general",
+        "compact": true,
+        "materialize": true,
+        "materializeTab": true,
+        "adminTab": {
+            "singleton": true,
+            "name": {
+                "en": "demo",
+                "de": "demo"
+             },
+            "link": "www.dmxface.at",
+            "fa-icon": "info"
+        },
+        "supportCustoms": true,
+        "dependencies": [
+            {
+                "js-controller": ">=1.4.2"
+            }
+        ]
+    },
+    "native": {
+		"ipaddress": "127.0.0.1",
+		"port": "8080",
+		"requesttiming": "1000",
+		"lastdmxchannel": "0",
+		"demonp": "100"
+    },
+    "objects": [],
+    "instanceObjects": []
+}

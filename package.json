@@ -1,0 +1,34 @@
+{
+  "name": "iobroker.demo",
+  "version": "1.0.0",
+  "description": "Netpoint demo Adapter for ioBroker",
+  "author": {
+    "name": "Netpoint GmbH",
+    "email": irakli@netpoint.de"
+  },
+  "homepage": "https://github.com/npirakli/ioBroker.demo",
+  "license": "MIT",
+  "keywords": [
+    "ioBroker",
+    "netpoint",
+	"demo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npirakli/ioBroker.demo"
+  },
+  "dependencies": {
+    "@iobroker/adapter-core": "^1.0.3"
+  },
+  "devDependencies": {
+   
+  },
+  "main": "main.js",
+  "scripts": {
+   
+  },
+  "bugs": {
+    "url": "https://github.com/npirakli/ioBroker.demo/issuss"
+  },
+  "readmeFilename": "README.md"
+}
